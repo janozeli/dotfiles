@@ -19,7 +19,7 @@ BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+Esc; Ctrl+W
+Close=Ctrl+W; Ctrl+Esc
 ConfigureNotifications=
 ConfigureToolbars=
 Copy=Ctrl+Ins; Ctrl+C
@@ -41,14 +41,14 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Alt+Right; Forward
+Forward=Forward; Alt+Right
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=F1
-Home=Home Page; Alt+Home
+Home=Alt+Home; Home Page
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -59,7 +59,7 @@ Open=Ctrl+O
 OpenContextMenu=Menu; Shift+F10
 OpenMainMenu=F10
 OpenRecent=
-Paste=Ctrl+V; Shift+Ins
+Paste=Shift+Ins; Ctrl+V
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -68,7 +68,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=F5; Refresh
+Reload=Refresh; F5
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -93,6 +93,10 @@ Zoom=
 ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
 
+[com.mitchellh.ghostty.desktop][Global Shortcuts]
+_launch=Meta+Return
+new-window=
+
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
@@ -106,7 +110,7 @@ decrease_volume_small=Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
 increase_volume_small=Shift+Volume Up
-mic_mute=Meta+Volume Mute; Microphone Mute
+mic_mute=Microphone Mute; Meta+Volume Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
@@ -126,7 +130,7 @@ Cycle Overview Opposite=
 Decrease Opacity=
 Edit Tiles=Meta+T
 Expose=Ctrl+F9
-ExposeAll=Launch (C); Ctrl+F10
+ExposeAll=Ctrl+F10; Launch (C)
 ExposeClass=Ctrl+F7
 ExposeClassCurrentDesktop=
 Grid View=Meta+G
@@ -190,12 +194,12 @@ Toggle Night Color=
 Toggle Window Raise/Lower=
 ToggleMouseClick=Meta+*
 TrackMouse=
-Walk Through Windows=Alt+Tab; Meta+Tab
+Walk Through Windows=Meta+Tab; Alt+Tab
 Walk Through Windows (Reverse)=Meta+Shift+Tab; Alt+Shift+Tab
 Walk Through Windows Alternative=
 Walk Through Windows Alternative (Reverse)=
-Walk Through Windows of Current Application=Alt+`; Meta+`
-Walk Through Windows of Current Application (Reverse)=Meta+~; Alt+~
+Walk Through Windows of Current Application=Meta+`; Alt+`
+Walk Through Windows of Current Application (Reverse)=Alt+~; Meta+~
 Walk Through Windows of Current Application Alternative=
 Walk Through Windows of Current Application Alternative (Reverse)=
 Window Above Other Windows=
@@ -205,7 +209,7 @@ Window Custom Quick Tile Bottom=
 Window Custom Quick Tile Left=
 Window Custom Quick Tile Right=
 Window Custom Quick Tile Top=
-Window Fullscreen=
+Window Fullscreen=Meta+Q
 Window Grow Horizontal=
 Window Grow Vertical=
 Window Lower=
@@ -276,7 +280,7 @@ Window to Screen 6=
 Window to Screen 7=
 disableInputCapture=Meta+Shift+Esc
 view_actual_size=Meta+0
-view_zoom_in=Meta+=; Meta++
+view_zoom_in=Meta++; Meta+=
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
@@ -299,28 +303,28 @@ _launch=Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Alt+Space; Search; Alt+F2
+_launch=Alt+F2; Search; Alt+Space
 
 [org.kde.kscreen.desktop][Global Shortcuts]
-ShowOSD=Display; Meta+P
+ShowOSD=Meta+P; Display
 
 [org.kde.plasma-systemmonitor.desktop][Global Shortcuts]
 _launch=Meta+Esc
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=Meta+Ctrl+Alt+Shift+Space; Meta+.
+_launch=Meta+.; Meta+Ctrl+Alt+Shift+Space
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
 CurrentMonitorScreenShot=
 FullScreenScreenShot=Shift+Print
 OpenWithoutScreenshot=
-RecordRegion=Meta+R; Meta+Shift+R
+RecordRegion=Meta+Shift+R; Meta+R
 RecordScreen=Meta+Alt+R
 RecordWindow=Meta+Ctrl+R
 RectangularRegionScreenShot=Meta+Shift+Print
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
-_launch=Meta+Shift+S; Print
+_launch=Print; Meta+Shift+S
 
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
@@ -340,11 +344,11 @@ PowerOff=Power Off
 Sleep=Sleep
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Meta+B; Battery
+powerProfile=Battery; Meta+B
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
-activate application launcher=Meta; Alt+F1
+activate application launcher=Alt+F1; Meta
 activate task manager entry 1=
 activate task manager entry 10=
 activate task manager entry 2=
@@ -365,7 +369,7 @@ cycle-panels=Meta+Alt+P
 cycleNextAction=
 cyclePrevAction=
 edit_clipboard=
-manage activities=Meta+Q
+manage activities=
 next activity=Meta+A
 previous activity=Meta+Shift+A
 repeat_action=
@@ -375,6 +379,9 @@ show-on-mouse-pos=Meta+V
 switch to next activity=
 switch to previous activity=
 toggle do not disturb=
+
+[spotify.desktop][Global Shortcuts]
+_launch=Meta+S
 
 [systemsettings.desktop][Global Shortcuts]
 _launch=Tools
@@ -389,6 +396,3 @@ _launch=
 new-private-window=Meta+Shift+F
 new-window=Meta+F
 profilemanager=
-
-[spotify.desktop][Global Shortcuts]
-_launch=Meta+S
