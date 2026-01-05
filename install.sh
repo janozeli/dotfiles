@@ -39,8 +39,13 @@ fi
 
 # Instalar todas as dependências
 print_info "Instalando dependências..."
-yay -S --noconfirm --needed stow zsh git fzf zoxide eza bat kitty gh wl-clipboard mpv less wget curl unzip tldr yt-dlp zed firefox zen-browser-bin oh-my-posh-bin asdf-vm ttf-firacode-nerd pamac-all cursor-bin obsidian-bin spotify
+yay -S --noconfirm --needed stow zsh git fzf zoxide eza bat ghostty gh wl-clipboard mpv less wget curl unzip tldr yt-dlp zed firefox zen-browser-bin oh-my-posh-bin asdf-vm ttf-firacode-nerd pamac-all cursor-bin obsidian-bin spotify
 print_success "Dependências instaladas com sucesso!"
+
+# Criar Pastas se não existirem
+print_info "Criando pastas..."
+mkdir -p $HOME/.local/bin
+mkdir -p $HOME/.config
 
 # Aplicar symlinks com GNU Stow
 print_info "Aplicando symlinks com GNU Stow..."

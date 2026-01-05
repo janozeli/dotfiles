@@ -68,7 +68,7 @@ alias ls="eza --header --long --icons --git"
 alias cat="bat"
 alias zshrc='${EDITOR:-nano} $HOME/.zshrc'
 alias zshrce='${EDITOR:-nano} $HOME/.zshrc_extend'
-alias kittyrc='${EDITOR:-nano} $HOME/.config/kitty/kitty.conf'
+alias ghosttyrc='${EDITOR:-nano} $HOME/.config/ghostty/config'
 
 #path
 export PATH="$PATH:$HOME/.local/bin"
